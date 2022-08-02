@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.task-control{
+    font-weight: bold;
+    gap: 4rem;
+    margin-bottom: 2rem;
+    text-align: left; 
+}
+
+.Task-form{
+  display: flex;
+  justify-content: center;
+  background-color: #15223b;
+  height: 200px;
+  padding: 40px;
+  /* margin: 50px; */
+  width:50%;
+  border-radius: 10px;
+  color: white;
+}
+
+ input {
+  font:inherit;
+  padding: 0.3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 20rem;
+}
+
+button{
+  float: left;
+  font-weight: bold;
+  width:200px ;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px;
+}
+
+.Tasklist{
+  border-radius: 8px;
+  background-color: #15223b;
+  color: white;
+  height: 3.5rem;
+  width: 44rem;
+  padding: 20px;
+  margin: 1rem 6.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.date{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ececec;
+  width: 7rem;
+  height: 3.5rem;
+  background: #2a2a2a;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.task{
+  font-size:large;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+
+}
+
+.rmv-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 17px;
+  width: 2rem;
+  height: 1.5rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
